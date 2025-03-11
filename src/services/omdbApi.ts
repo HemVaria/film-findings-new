@@ -1,7 +1,7 @@
 
 import { Movie, MovieDetails } from '@/types/movie';
 
-const API_KEY = '969002'; // The API key provided in your requirements
+const API_KEY = 'YOUR API'; // The API key provided in your requirements
 const BASE_URL = 'https://www.omdbapi.com/';
 
 // Helper function to handle API errors
