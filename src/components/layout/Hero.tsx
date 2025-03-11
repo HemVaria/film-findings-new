@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
@@ -44,7 +43,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className="relative flex items-center justify-center bg-film-darker-blue">
-      <div className="container mx-auto px-4 md:px-6 relative z-10 py-20 md:py-24 lg:py-28 flex flex-col items-center justify-center text-center">
+      <div className="container mx-auto px-4 md:px-6 relative z-10 py-16 md:py-20 lg:py-24 flex flex-col items-center justify-center text-center">
         <h1 
           ref={titleRef}
           className="opacity-0 transition-opacity duration-700 delay-300"
@@ -54,7 +53,7 @@ const Hero: React.FC = () => {
               key={index} 
               className={`text-4xl md:text-6xl lg:text-7xl font-bold inline-block transition-all
                 ${index === 0 || index === 4 ? 'text-gradient-purple' : 'text-white'}
-                ${index < titleWords.length - 1 ? 'mr-4 md:mr-6' : ''}
+                ${index < titleWords.length - 1 ? 'mr-2 md:mr-4' : ''}
               `}
               style={{ transitionDelay: `${index * 100 + 300}ms` }}
             >
@@ -65,14 +64,14 @@ const Hero: React.FC = () => {
         
         <p 
           ref={subtitleRef}
-          className="mt-6 max-w-2xl text-white/80 text-lg md:text-xl opacity-0 transition-opacity duration-700 delay-800"
+          className="mt-4 md:mt-6 max-w-2xl text-white/80 text-lg md:text-xl opacity-0 transition-opacity duration-700 delay-800"
         >
           Personalized movie and series recommendations tailored just for you. Never miss another hidden gem again.
         </p>
         
         <div 
           ref={buttonContainerRef}
-          className="mt-10 space-x-4 opacity-0 transition-opacity duration-700 delay-1000"
+          className="mt-8 md:mt-10 space-x-4 opacity-0 transition-opacity duration-700 delay-1000"
         >
           <button 
             onClick={goToDashboard}

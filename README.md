@@ -1,33 +1,24 @@
-# Welcome to your Lovable project
 
-## Project info
+# Welcome to FilmFindings  
 
-**URL**: https://lovable.dev/projects/c8e9b9c0-4679-4aa6-9365-7b6842cf531a
+## Project Info  
 
-## How can I edit this code?
+FilmFindings is a movie and series recommendation platform designed to help users discover, save, and share their favorite content with friends.  
 
-There are several ways of editing your application.
+## How Can I Edit This Code?  
 
-**Use Lovable**
+There are multiple ways to work on this project:  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c8e9b9c0-4679-4aa6-9365-7b6842cf531a) and start prompting.
+### **Use Your Preferred IDE**  
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+If you're developing locally, follow these steps:  
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd FilmFindings
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -36,34 +27,38 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### **Edit Directly in GitHub**  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Navigate to the desired file(s).  
+- Click the "Edit" button (pencil icon) at the top right of the file view.  
+- Make your changes and commit them.  
 
-**Use GitHub Codespaces**
+### **Use GitHub Codespaces**  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Go to your repository's main page.  
+- Click the "Code" button near the top right.  
+- Select the "Codespaces" tab.  
+- Click on "New codespace" to launch an environment.  
+- Make changes and commit them directly.  
 
-## What technologies are used for this project?
+## **What Technologies Are Used?**  
 
-This project is built with .
+FilmFindings is built using:  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Vite  
+- TypeScript  
+- React  
+- shadcn-ui  
+- Tailwind CSS  
 
-## How can I deploy this project?
+## **How Can I Deploy This Project?**  
 
-Simply open [Lovable](https://lovable.dev/projects/c8e9b9c0-4679-4aa6-9365-7b6842cf531a) and click on Share -> Publish.
+For deployment, you can use hosting services like Netlify, Vercel, or any other platform that supports static site hosting.  
 
-## I want to use a custom domain - is that possible?
+## **Can I Use a Custom Domain?**  
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Yes! If you want to deploy FilmFindings under your own domain, platforms like Netlify and Vercel offer easy custom domain configurations.  
+
+---
+
+Let me know if you need any changes! 🚀
